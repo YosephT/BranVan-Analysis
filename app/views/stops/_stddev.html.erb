@@ -1,0 +1,34 @@
+<table>
+    <thead>
+        <td>Stop</td>
+        <td>Reliability</td>
+    </thead>
+    <tbody>
+        <% times = Hash.new %>
+        <% Stop.all.each do |s| %>
+            <% times[s.stop_id] = Array.new %>
+        <% end %>
+        
+        <% VehicleReading.all.each do |r| %>
+            <% if r.current_stop_id != nil %>
+                <% times.each do |k, v| %>
+                   <% if r.current_stop_id = k %>
+                      <% v << r.timestamp %>
+                      <% break %>
+                    <% end %>
+                <% end %>
+            <% end %>
+        <% end %>
+        <% times.each do |k, v| %>
+            <tr>
+                <% name = Stop.where(:stop_id => k).first.name %>
+                <% avg = Stop.where(:stop_id => k).first.avgTime %>
+                <td><%= name %></td>
+                <td><%= getStdDev(avg, v) %> </td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
+
+
+    

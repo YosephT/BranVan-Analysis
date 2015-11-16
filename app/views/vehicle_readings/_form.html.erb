@@ -1,0 +1,65 @@
+<%= form_for(@vehicle_reading) do |f| %>
+  <% if @vehicle_reading.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@vehicle_reading.errors.count, "error") %> prohibited this vehicle_reading from being saved:</h2>
+
+      <ul>
+      <% @vehicle_reading.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :reading_id %><br>
+    <%= f.number_field :reading_id %>
+  </div>
+  <div class="field">
+    <%= f.label :agency_id %><br>
+    <%= f.number_field :agency_id %>
+  </div>
+  <div class="field">
+    <%= f.label :call_name %><br>
+    <%= f.number_field :call_name %>
+  </div>
+  <div class="field">
+    <%= f.label :current_stop_id %><br>
+    <%= f.number_field :current_stop_id %>
+  </div>
+  <div class="field">
+    <%= f.label :heading %><br>
+    <%= f.number_field :heading %>
+  </div>
+  <div class="field">
+    <%= f.label :vehicle_id %><br>
+    <%= f.number_field :vehicle_id %>
+  </div>
+  <div class="field">
+    <%= f.label :latitude %><br>
+    <%= f.text_field :latitude %>
+  </div>
+  <div class="field">
+    <%= f.label :longitude %><br>
+    <%= f.text_field :longitude %>
+  </div>
+  <div class="field">
+    <%= f.label :route_id %><br>
+    <%= f.number_field :route_id %>
+  </div>
+  <div class="field">
+    <%= f.label :segment_id %><br>
+    <%= f.number_field :segment_id %>
+  </div>
+  <div class="field">
+    <%= f.label :speed %><br>
+    <%= f.number_field :speed %>
+  </div>
+  <div class="field">
+    <%= f.label :timestamp %><br>
+    <%= f.number_field :timestamp %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

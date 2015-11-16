@@ -1,0 +1,923 @@
+{
+    "rate_limit": 1,
+    "expires_in": 300,
+    "api_latest_version": "1.2",
+    "generated_on": "2015-11-14T18:37:32+00:00",
+    "data": [{
+        "code": "101",
+        "description": "140 Moody St, Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37387,
+            "lng": -71.23641
+        },
+        "stop_id": "4144734",
+        "routes": ["4004842"],
+        "name": "140 Moody St. at Enterprise Rental Car"
+    }, {
+        "code": "102",
+        "description": "567 South St Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36115,
+            "lng": -71.2612
+        },
+        "stop_id": "4144738",
+        "routes": ["4004826", "4004830", "4004834"],
+        "name": "567 Apartments"
+    }, {
+        "code": "103",
+        "description": "567 South St Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36109,
+            "lng": -71.26118
+        },
+        "stop_id": "4144742",
+        "routes": ["4004830", "4004834"],
+        "name": "567 Apartments - (Outbound)"
+    }, {
+        "code": "104",
+        "description": "110 South St, Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37241,
+            "lng": -71.24981
+        },
+        "stop_id": "4144746",
+        "routes": ["4004830", "4004834"],
+        "name": "99 Restaurant - (Inbound)"
+    }, {
+        "code": "105",
+        "description": "Loop Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36468,
+            "lng": -71.26024
+        },
+        "stop_id": "4144750",
+        "routes": ["4004826", "4004830", "4004834", "4004838", "4004846", "4004850"],
+        "name": "Admissions"
+    }, {
+        "code": "106",
+        "description": "Sharon St. at Prospect St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37068,
+            "lng": -71.24613
+        },
+        "stop_id": "4144754",
+        "routes": ["4004830", "4004834"],
+        "name": "Art Studio"
+    }, {
+        "code": "107",
+        "description": "Ash St. at Moody St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36607,
+            "lng": -71.23811
+        },
+        "stop_id": "4144758",
+        "routes": ["4004830", "4004834"],
+        "name": "Ash/Moody St. - (Inbound)"
+    }, {
+        "code": "108",
+        "description": "Beacon St. at Massachusetts Ave.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.34908,
+            "lng": -71.08864
+        },
+        "stop_id": "4144762",
+        "routes": ["4004846", "4004850"],
+        "name": "Common Wealth/Mass Ave"
+    }, {
+        "code": "109",
+        "description": "Bedford St. at South St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37158,
+            "lng": -71.25009
+        },
+        "stop_id": "4144766",
+        "routes": ["4004830", "4004834", "4006342"],
+        "name": "Bedford/South St. - (Inbound)"
+    }, {
+        "code": "110",
+        "description": "Brown St. at Moody St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.3652,
+            "lng": -71.23839
+        },
+        "stop_id": "4144770",
+        "routes": ["4004830", "4004834"],
+        "name": "Brown/Moody St. - (Inbound)"
+    }, {
+        "code": "112",
+        "description": "881 Moody St, Waltham, MA ",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36183,
+            "lng": -71.23928
+        },
+        "stop_id": "4144774",
+        "routes": ["4004830", "4004834"],
+        "name": "Burger King - (Inbound)"
+    }, {
+        "code": "113",
+        "description": "12 Harvard St, Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37571,
+            "lng": -71.24377
+        },
+        "stop_id": "4144778",
+        "routes": ["4004830", "4004834"],
+        "name": "CVS - (Inbound)"
+    }, {
+        "code": "114",
+        "description": "Charles River Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.35927,
+            "lng": -71.25842
+        },
+        "stop_id": "4144782",
+        "routes": ["4004826", "4004830", "4004834", "4004838", "4006342"],
+        "name": "Charles River Lot (J-Lot)"
+    }, {
+        "code": "116",
+        "description": "Angleside Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.35926,
+            "lng": -71.25838
+        },
+        "stop_id": "4144786",
+        "routes": ["4004830", "4004834"],
+        "name": "Charles River Lot (J-Lot) - (Outbound)"
+    }, {
+        "code": "117",
+        "description": "Charles St. at South St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.3728,
+            "lng": -71.24958
+        },
+        "stop_id": "4144790",
+        "routes": ["4004842"],
+        "name": "Charles St. at intersection with South St."
+    }, {
+        "code": "118",
+        "description": "Cherry St. at Moody St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.3668,
+            "lng": -71.23787
+        },
+        "stop_id": "4144794",
+        "routes": ["4004830", "4004834"],
+        "name": "Cherry/Moody St. - (Inbound)"
+    }, {
+        "code": "119",
+        "description": "1 Sawyer Rd Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.3617,
+            "lng": -71.26039
+        },
+        "stop_id": "4144798",
+        "routes": ["4004826", "4004830", "4004834"],
+        "name": "Commuter Rail (Brandeis/Roberts)"
+    }, {
+        "code": "120",
+        "description": "1 Sawyer Rd Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36172,
+            "lng": -71.2603
+        },
+        "stop_id": "4144802",
+        "routes": ["4004830", "4004834"],
+        "name": "Commuter Rail (Brandeis/Roberts) - (Outbound)"
+    }, {
+        "code": "121",
+        "description": "185 Crescent St, Waltham, MA ",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36773,
+            "lng": -71.24289
+        },
+        "stop_id": "4144806",
+        "routes": ["4004842"],
+        "name": "Crescent St. at Cherry St. (in front of Watch Factory)"
+    }, {
+        "code": "122",
+        "description": "881 Moody St, Waltham, MA ",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36184,
+            "lng": -71.23993
+        },
+        "stop_id": "4144810",
+        "routes": ["4004842", "4006342"],
+        "name": "Crescent St. at Moody St. (near Burger King)"
+    }, {
+        "code": "123",
+        "description": "Dartmouth St. at South St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37091,
+            "lng": -71.25026
+        },
+        "stop_id": "4144814",
+        "routes": ["4004830", "4004834"],
+        "name": "Dartmouth/South St. - (Inbound)"
+    }, {
+        "code": "124",
+        "description": "415 South St Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.366,
+            "lng": -71.25475
+        },
+        "stop_id": "4144818",
+        "routes": ["4004830", "4004834"],
+        "name": "Foster Apartments (Mods) - (Inbound)"
+    }, {
+        "code": "125",
+        "description": "415 South St Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36605,
+            "lng": -71.25477
+        },
+        "stop_id": "4144822",
+        "routes": ["4004830", "4004834"],
+        "name": "Foster Apartments (Mods) - (Outbound)"
+    }, {
+        "code": "126",
+        "description": "415 South St Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36581,
+            "lng": -71.25392
+        },
+        "stop_id": "4144826",
+        "routes": ["4004826"],
+        "name": "Foster Apartments (Mods/Gosman)"
+    }, {
+        "code": "127",
+        "description": "415 South St Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36532,
+            "lng": -71.25602
+        },
+        "stop_id": "4144830",
+        "routes": ["4004826", "4004830", "4004834"],
+        "name": "Gosman Sports Complex - (Inbound)"
+    }, {
+        "code": "128",
+        "description": "415 South St Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36533,
+            "lng": -71.25596
+        },
+        "stop_id": "4144834",
+        "routes": ["4004830", "4004834"],
+        "name": "Gosman Sports Complex - (Outbound)"
+    }, {
+        "code": "129",
+        "description": " 55 Russell St, Waltham, MA ",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37551,
+            "lng": -71.2446
+        },
+        "stop_id": "4144838",
+        "routes": ["4004830", "4004834"],
+        "name": "Hannafords - (Inbound)"
+    }, {
+        "code": "130",
+        "description": "Loop Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37478,
+            "lng": -71.11854
+        },
+        "stop_id": "4144842",
+        "routes": ["4004846", "4004850"],
+        "name": "Harvard Square"
+    }, {
+        "code": "131",
+        "description": "Loop Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36658,
+            "lng": -71.26159
+        },
+        "stop_id": "4144846",
+        "routes": ["4004826", "4004830", "4004834", "4004838", "4004846", "4004850", "4006342"],
+        "name": "Hassenfeld Lot (Massell)"
+    }, {
+        "code": "132",
+        "description": "Loop Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36953,
+            "lng": -71.25911
+        },
+        "stop_id": "4144850",
+        "routes": ["4004826", "4004830", "4004834"],
+        "name": "Heller School"
+    }, {
+        "code": "133",
+        "description": "Highland St. at Hope Ave.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37039,
+            "lng": -71.24882
+        },
+        "stop_id": "4144854",
+        "routes": ["4004842"],
+        "name": "Highland St. at Hope Ave"
+    }, {
+        "code": "134",
+        "description": "Highland St. at South St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37036,
+            "lng": -71.25022
+        },
+        "stop_id": "4144858",
+        "routes": ["4004830", "4004834"],
+        "name": "Highland/South St. - (Inbound)"
+    }, {
+        "code": "135",
+        "description": "Highland St. at South St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37029,
+            "lng": -71.2501
+        },
+        "stop_id": "4144862",
+        "routes": ["4004830", "4004834"],
+        "name": "Highland/South St. - (Outbound)"
+    }, {
+        "code": "136",
+        "description": "265 Moody St, Waltham, MA ",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.3716,
+            "lng": -71.2369
+        },
+        "stop_id": "4144866",
+        "routes": ["4004830", "4004834", "4006342"],
+        "name": "In a Pickle - (Inbound)"
+    }, {
+        "code": "137",
+        "description": "",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37611,
+            "lng": -71.23945
+        },
+        "stop_id": "4144870",
+        "routes": ["4004830", "4004834"],
+        "name": "Library - (Inbound)"
+    }, {
+        "code": "138",
+        "description": "367 Moody St, Waltham, MA ",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36993,
+            "lng": -71.23718
+        },
+        "stop_id": "4144874",
+        "routes": ["4004830", "4004834"],
+        "name": "Lizzy's - (Inbound)"
+    }, {
+        "code": "139",
+        "description": "Charles River Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.35954,
+            "lng": -71.25659
+        },
+        "stop_id": "4144878",
+        "routes": ["4004826", "4004830", "4004834", "4004838", "4006342"],
+        "name": "Lower Charles River Road (Grad)"
+    }, {
+        "code": "140",
+        "description": "Charles River Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.35954,
+            "lng": -71.25653
+        },
+        "stop_id": "4144882",
+        "routes": ["4004830", "4004834"],
+        "name": "Lower Charles River Road (Grad) - (Outbound)"
+    }, {
+        "code": "141",
+        "description": "Loop Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36484,
+            "lng": -71.25863
+        },
+        "stop_id": "4144886",
+        "routes": ["4004826", "4004830", "4004834", "4004838", "4004846", "4004850", "4006342"],
+        "name": "Main Entrance"
+    }, {
+        "code": "142",
+        "description": "Main St. at Fiske St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37633,
+            "lng": -71.24369
+        },
+        "stop_id": "4144890",
+        "routes": ["4004842", "4006342"],
+        "name": "Main St across from CVS"
+    }, {
+        "code": "143",
+        "description": "Main St. at Exchange St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37624,
+            "lng": -71.23973
+        },
+        "stop_id": "4144894",
+        "routes": ["4004842"],
+        "name": "Main St. at Exchange St (near Waltham Public Library)"
+    }, {
+        "code": "144",
+        "description": "Main St. at Moody St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37599,
+            "lng": -71.23716
+        },
+        "stop_id": "4144898",
+        "routes": ["4004830", "4004834", "4006342"],
+        "name": "Main/Moody St. - (Inbound)"
+    }, {
+        "code": "145",
+        "description": "Maple St. at Moody St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36791,
+            "lng": -71.23754
+        },
+        "stop_id": "4144902",
+        "routes": ["4004830", "4004834"],
+        "name": "Maple/High/Moody St. - (Inbound)"
+    }, {
+        "code": "146",
+        "description": "Maple St. at Moody St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36751,
+            "lng": -71.23748
+        },
+        "stop_id": "4144906",
+        "routes": ["4004842", "4006342"],
+        "name": "Moody St. at Maple St./High St."
+    }, {
+        "code": "147",
+        "description": "Orange St. at Moody St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36354,
+            "lng": -71.23887
+        },
+        "stop_id": "4144910",
+        "routes": ["4004830", "4004834"],
+        "name": "Orange/Moody St. - (Inbound)"
+    }, {
+        "code": "148",
+        "description": "776 Main St, Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37619,
+            "lng": -71.24147
+        },
+        "stop_id": "4144914",
+        "routes": ["4004830", "4004834"],
+        "name": "Post Office - (Inbound)"
+    }, {
+        "code": "149",
+        "description": "Loop Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36871,
+            "lng": -71.25714
+        },
+        "stop_id": "4144918",
+        "routes": ["4004826", "4004830", "4004834", "4004838", "4004846", "4004850", "4006342"],
+        "name": "Rabb (Usdan)"
+    }, {
+        "code": "150",
+        "description": "Robbins St. at Moody St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36448,
+            "lng": -71.23863
+        },
+        "stop_id": "4144922",
+        "routes": ["4004830", "4004834"],
+        "name": "Robbins/Moody St. - (Inbound)"
+    }, {
+        "code": "151",
+        "description": "Russell St. at Prospect St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37541,
+            "lng": -71.24663
+        },
+        "stop_id": "4144926",
+        "routes": ["4004830", "4004834"],
+        "name": "Russell/Prospect St. - (Inbound)"
+    }, {
+        "code": "152",
+        "description": "Shakespeare St. at South St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36819,
+            "lng": -71.25138
+        },
+        "stop_id": "4144930",
+        "routes": ["4004830", "4004834"],
+        "name": "Shakespeare/South St. - (Inbound)"
+    }, {
+        "code": "153",
+        "description": "South St. at Shakespeare St,",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36824,
+            "lng": -71.25149
+        },
+        "stop_id": "4144934",
+        "routes": ["4004842"],
+        "name": "South St. at Shakespeare Rd."
+    }, {
+        "code": "154",
+        "description": "Loop Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36481,
+            "lng": -71.26068
+        },
+        "stop_id": "4144938",
+        "routes": ["4004826", "4004842"],
+        "name": "Spingold Intersection at Shapiro Campus Center"
+    }, {
+        "code": "155",
+        "description": "Loop Rd.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36507,
+            "lng": -71.26147
+        },
+        "stop_id": "4144942",
+        "routes": ["4004830", "4004834"],
+        "name": "Spingold Theatre"
+    }, {
+        "code": "156",
+        "description": "415 South St Waltham, MA",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36393,
+            "lng": -71.26171
+        },
+        "stop_id": "4144946",
+        "routes": ["4004842"],
+        "name": "Theater Lot (rear of Spingold Theatre)"
+    }, {
+        "code": "157",
+        "description": "Vernon St. at South St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37429,
+            "lng": -71.24997
+        },
+        "stop_id": "4144950",
+        "routes": ["4004830", "4004834", "4006342"],
+        "name": "Vernon/South St. - (Inbound)"
+    }, {
+        "code": "158",
+        "description": "Russell St. at South St.",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.37591,
+            "lng": -71.24998
+        },
+        "stop_id": "4144954",
+        "routes": ["4004830", "4004834"],
+        "name": "Main/South (Walgreens)"
+    }, {
+        "code": "159",
+        "description": "185 Crescent St, Waltham, MA ",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36776,
+            "lng": -71.24273
+        },
+        "stop_id": "4144958",
+        "routes": ["4004830", "4004834"],
+        "name": "Watch Factory - (Inbound)"
+    }, {
+        "code": "160",
+        "description": "",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36144,
+            "lng": -71.26121
+        },
+        "stop_id": "4144962",
+        "routes": ["4004846", "4004850", "4006342"],
+        "name": "Cappy's Pizzeria"
+    }, {
+        "code": "TG1",
+        "description": "",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.33561,
+            "lng": -71.25277
+        },
+        "stop_id": "4166966",
+        "routes": ["4006342"],
+        "name": "Riverside Station"
+    }, {
+        "code": "TG2",
+        "description": "",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36658,
+            "lng": -71.25527
+        },
+        "stop_id": "4166970",
+        "routes": ["4006342"],
+        "name": "Public Safety"
+    }, {
+        "code": "TG3",
+        "description": "",
+        "url": "",
+        "parent_station_id": null,
+        "agency_ids": ["483"],
+        "station_id": null,
+        "location_type": "stop",
+        "location": {
+            "lat": 42.36486,
+            "lng": -71.26098
+        },
+        "stop_id": "4166974",
+        "routes": ["4006342"],
+        "name": "Spingold & Admissions"
+    }],
+    "api_version": "1.2"
+}

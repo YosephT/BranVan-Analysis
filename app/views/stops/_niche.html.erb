@@ -1,0 +1,32 @@
+<table>
+    <thead>
+        <td>Van #</td>
+        <td>Speed (Mph)</td>
+        <td>Location</td>
+        <td>Time</td>
+    </thead>
+    <tbody>
+        <% count = 0 %>
+        <% done = [] %>
+        <% VehicleReading.order("created_at DESC").each do |r| %>
+            <% if count > 20 %>
+            <% break %>
+            <% end %>
+            <% if !done.include?(r.vehicle_id) %>
+                <% if r.speed > 56 %>
+                    <% done << r.vehicle_id %>
+                    <% count += 1 %>
+                    <tr>
+                        <td><%= r.vehicle_id %></td>
+                        <td><%= (r.speed*0.62137).to_i %> </td>
+                        <td><%= findPlace(r.latitude, r.longitude) %></td>
+                        <td><%= (r.created_at).in_time_zone('Eastern Time (US & Canada)') %></td>
+                    </tr>
+                <% end %>
+            <% end %>
+        <% end %>
+    </tbody>
+</table>
+
+
+    

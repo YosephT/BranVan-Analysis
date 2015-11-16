@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Reading:</strong>
+  <%= @vehicle_reading.reading_id %>
+</p>
+
+<p>
+  <strong>Agency:</strong>
+  <%= @vehicle_reading.agency_id %>
+</p>
+
+<p>
+  <strong>Call name:</strong>
+  <%= @vehicle_reading.call_name %>
+</p>
+
+<p>
+  <strong>Current stop:</strong>
+  <%= @vehicle_reading.current_stop_id %>
+</p>
+
+<p>
+  <strong>Heading:</strong>
+  <%= @vehicle_reading.heading %>
+</p>
+
+<p>
+  <strong>Vehicle:</strong>
+  <%= @vehicle_reading.vehicle_id %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @vehicle_reading.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @vehicle_reading.longitude %>
+</p>
+
+<p>
+  <strong>Route:</strong>
+  <%= @vehicle_reading.route_id %>
+</p>
+
+<p>
+  <strong>Segment:</strong>
+  <%= @vehicle_reading.segment_id %>
+</p>
+
+<p>
+  <strong>Speed:</strong>
+  <%= @vehicle_reading.speed %>
+</p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @vehicle_reading.timestamp %>
+</p>
+
+<%= link_to 'Edit', edit_vehicle_reading_path(@vehicle_reading) %> |
+<%= link_to 'Back', vehicle_readings_path %>

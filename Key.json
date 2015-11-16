@@ -1,0 +1,8 @@
+# These code snippets use an open-source library. http://unirest.io/ruby
+response = Unirest.get "  http://feeds.transloc.com/3/vehicle_statuses.json?agencies=483",
+  headers:{
+    "X-Mashape-Key" => "7hQN9cDZFlmshHcpbDaNSJnlIYvxp1KOTEajsn7icTHqdT2M6x",
+    "Accept" => "application/json"
+  }
+  
+  http://feeds.transloc.com/3/vehicle_statuses.json?agencies=483

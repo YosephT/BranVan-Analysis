@@ -1,0 +1,32 @@
+<table>
+    <thead>
+        <td>Van #</td>
+        <td>Stop</td>
+        <td>How Late?</td>
+        <td>Average Time</td>
+    </thead>
+    <tbody>
+        <% count = 0 %>
+        <% done = [] %>
+        <% VehicleReading.order("created_at DESC").each do |r| %>
+            <% if count > 20 %>
+            <% break %>
+            <% end %>
+            <% if !done.include?(r.vehicle_id) %>
+                <% sto = Stop.where(:stop_id => r.current_stop_id).first %>
+                <% if sto !=nil %>
+                    <% if (sto.avgTime - r.timestamp)<= -5 %>
+                        <% done << r.vehicle_id %>
+                        <% count += 1 %>
+                        <tr>
+                            <td><%= r.vehicle_id %></td>
+                            <td><%= sto.name %> </td>
+                            <td><%= (sto.avgTime - r.timestamp).abs %> minutes</td>
+                            <td><%= sto.avgTime %> minutes into in cycle</td>
+                        </tr>
+                    <% end %>
+                <% end %>
+            <% end %>
+        <% end %>
+    </tbody>
+</table>

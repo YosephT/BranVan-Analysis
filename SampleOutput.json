@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "vehicles": [
+    {
+      "agency_id": 483,
+      "apc_status": "not_installed",
+      "call_name": "1500",
+      "current_stop_id": null,
+      "heading": 3,
+      "id": 4010479,
+      "load": null,
+      "num_cars": null,
+      "position": [
+        42.363063,
+        -71.129911
+      ],
+      "route_id": 4004846,
+      "segment_id": 4107381,
+      "speed": 0,
+      "timestamp": 1447523878000
+    },
+    {
+      "agency_id": 483,
+      "apc_status": "not_installed",
+      "call_name": "52",
+      "current_stop_id": null,
+      "heading": 242,
+      "id": 4010487,
+      "load": null,
+      "num_cars": null,
+      "position": [
+        42.370501,
+        -71.2486
+      ],
+      "route_id": 4004834,
+      "segment_id": 4071791,
+      "speed": 12,
+      "timestamp": 1447523879000
+    },
+    {
+      "agency_id": 483,
+      "apc_status": "not_installed",
+      "call_name": "56",
+      "current_stop_id": 4144918,
+      "heading": 319,
+      "id": 4010499,
+      "load": null,
+      "num_cars": null,
+      "position": [
+        42.368779,
+        -71.257224
+      ],
+      "route_id": 4004826,
+      "segment_id": 4071727,
+      "speed": 0,
+      "timestamp": 1447523879000
+    }
+  ]
+}
+rails g scaffold VehicleReading reading_id:integer agency_id:integer call_name:integer current_stop_id:integer heading:integer vehicle_id:integer latitude:decimal longitude:decimal route_id:integer segment_id:integer speed:integer timestamp:integer

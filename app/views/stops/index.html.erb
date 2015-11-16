@@ -1,0 +1,48 @@
+<p id="notice"><%= notice %></p>
+
+<center><h1>BranVan Performance Analysis</h1></center>
+
+<center>
+  <div>
+    <ul class="tabs" data-tab>
+      <li class="tab-title active"><a href="#panel1">Late</a></li>
+      <li class="tab-title"><a href="#panel2">Speeding</a></li>
+      <li class="tab-title"><a href="#panel3">Reliability</a></li>
+      <li class="tab-title"><a href="#panel4">Status</a></li>
+    </ul>
+  </div>
+</center>
+
+
+  <div class="tabs-content">
+    <div class="content active" id="panel1">
+      <div>
+        <center>
+          <%= render partial:'toby' %>
+        </center>
+      </div>
+      <div>
+        <%= pie_chart(getLateness()) %>
+      </div>
+    </div>
+    <div class="content" id="panel2">
+      <div>
+        <center>
+          <%= render partial:'niche' %>
+        </center>
+      </div>
+      <div>
+        <%= pie_chart(getSpeeding()) %>
+      </div>
+    </div>
+    <div class="content" id="panel3">
+       <div style="margin-left:40px">
+        <%= render partial:'stddev' %>
+      </div>
+    </div>
+    <div class="content" id="panel4">
+      <center>
+        <%= render partial:'yoseph' %>
+      </center>
+    </div>
+  </div>

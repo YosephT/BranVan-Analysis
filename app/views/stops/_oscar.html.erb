@@ -1,0 +1,32 @@
+<table>
+    <thead>
+        <td>Van #</td>
+        <td>Speed (Mph)</td>
+        <td>Latitude</td>
+        <td>Longitude</td>
+    </thead>
+    <tbody>
+        <% count = 0 %>        
+        <% done = [] %>
+        <% VehicleReading.order("created_at DESC").each do |r| %>
+            <% if count > 20 %>
+            <% break %>
+            <% end %>
+            <% if !done.include?(r.vehicle_id) %>
+                <% if findPlace(r.latitude, r.longitude) == "Out of Bounds" %>
+                    <% done << r.vehicle_id %>
+                    <% count += 1 %>
+                    <tr>
+                        <td><%= r.vehicle_id %></td>
+                        <td><%= (r.speed*0.62137).to_i %> </td>
+                        <td><%= r.latitude %></td>
+                        <td><%= r.longitude %></td>
+                    </tr>
+                <% end %>
+            <% end %>
+        <% end %>
+    </tbody>
+</table>
+
+
+    
